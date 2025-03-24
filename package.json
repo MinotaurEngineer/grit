@@ -11,7 +11,8 @@
     "preview": "vite preview",
     "lint": "biome lint ./src --apply",
     "format": "biome format ./src --write",
-    "check": "biome check ./src --apply"
+    "check": "biome check ./src --apply",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@preact/signals": "^2.0.1",
