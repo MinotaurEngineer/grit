@@ -1,0 +1,2422 @@
+{
+  "media": [
+    "12981901",
+    "4761426",
+    "6389831",
+    "9644944",
+    "13721791",
+    "4761431",
+    "6390163",
+    "9944596",
+    "3191933",
+    "4761711",
+    "7675448",
+    "9944751",
+    "3196220",
+    "4761809",
+    "7699872",
+    "9944754",
+    "4367507",
+    "4763786",
+    "8544701",
+    "4753951",
+    "6388436",
+    "8857699"
+  ],
+  "programs": [
+    {
+      "id": "e7f89k2m",
+      "country": "United Kingdom",
+      "iso2code": "gb",
+      "service": "Military",
+      "branch": "Army",
+      "name": "Annual Fitness Test (AFT)",
+      "description": "British Army fitness test: press-ups, sit-ups, and a timed run to ensure combat readiness.",
+      "introduction": [
+        "The Annual Fitness Test (AFT) is a mandatory requirement for all British Army personnel, designed to assess and maintain the physical fitness necessary for operational effectiveness. This test is conducted annually and is tailored to ensure soldiers can meet the physical demands of their roles, whether in combat or support positions.",
+        "The AFT consists of three key exercises: press-ups, sit-ups, and a 2.4km run. These components test upper body strength, core endurance, and cardiovascular fitness, respectively. Standards vary by age and gender, with additional requirements for specific roles such as infantry or special forces, who may undergo more rigorous assessments like the Combat Fitness Test (CFT).",
+        "Recruits must pass a similar Pre-Joining Fitness Test before enlistment, and the AFT ensures that fitness levels are maintained throughout a soldier's career. The test is conducted under strict conditions, often outdoors, to simulate real-world demands faced by British Army personnel."
+      ],
+      "components": [
+        {
+          "name": "Press-ups",
+          "evaluation": "Maximum reps in 2 minutes",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "min",
+              "value": 44,
+              "unit": "count"
+            },
+            {
+              "gender": "female",
+              "metric": "min",
+              "value": 21,
+              "unit": "count"
+            }
+          ]
+        },
+        {
+          "name": "Sit-ups",
+          "evaluation": "Maximum reps in 2 minutes",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "min",
+              "value": 50,
+              "unit": "count"
+            },
+            {
+              "gender": "female",
+              "metric": "min",
+              "value": 50,
+              "unit": "count"
+            }
+          ]
+        },
+        {
+          "name": "Run",
+          "evaluation": "Time to complete distance",
+          "target": {
+            "value": 2.4,
+            "unit": "km"
+          },
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 10.5,
+              "unit": "min"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 13,
+              "unit": "min"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "notes": "Standards shown are for ages 20-29; adjustments apply for older age groups."
+      },
+      "difficulty": 3
+    },
+    {
+      "id": "p9m4j7v2",
+      "country": "France",
+      "iso2code": "fr",
+      "service": "Military",
+      "branch": "Army",
+      "name": "Test d'Aptitude Physique Militaire (TAPM)",
+      "description": "French Army fitness test: pull-ups, shuttle run, and obstacle course to assess soldier readiness.",
+      "introduction": [
+        "The Test d'Aptitude Physique Militaire (TAPM) is a standardized fitness evaluation used by the French Army to measure the physical capabilities of its soldiers. This test ensures that personnel maintain the strength, endurance, and agility required for military operations, from basic training through active service.",
+        "The TAPM includes three main components: pull-ups (or push-ups for some categories), a Luc Léger shuttle run (beep test) for cardiovascular endurance, and an obstacle course to test functional fitness and agility. The standards vary depending on the soldier’s role, age, and gender, with elite units like the French Foreign Legion or Commandos facing additional challenges.",
+        "Conducted regularly, the TAPM reflects the French Army’s emphasis on versatility and preparedness, simulating the physical demands of combat and field operations. Recruits must pass an initial version of this test during enlistment, with ongoing assessments to maintain operational standards."
+      ],
+      "components": [
+        {
+          "name": "Pull-ups",
+          "evaluation": "Maximum reps in one set",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "min",
+              "value": 5,
+              "unit": "count"
+            },
+            {
+              "gender": "female",
+              "metric": "min",
+              "value": 3,
+              "unit": "count"
+            }
+          ]
+        },
+        {
+          "name": "Shuttle Run (Luc Léger)",
+          "evaluation": "Progressive endurance test",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "min",
+              "value": 7,
+              "unit": "level"
+            },
+            {
+              "gender": "female",
+              "metric": "min",
+              "value": 5,
+              "unit": "level"
+            }
+          ]
+        },
+        {
+          "name": "Obstacle Course",
+          "evaluation": "Time to complete course",
+          "target": {
+            "value": "varies",
+            "unit": "meters"
+          },
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 4,
+              "unit": "min"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 5,
+              "unit": "min"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "notes": "Obstacle course specifics vary by training facility."
+      },
+      "difficulty": 3
+    },
+    {
+      "id": "n4k9p2m7",
+      "country": "Germany",
+      "iso2code": "de",
+      "service": "Military",
+      "branch": "Navy",
+      "name": "Basis-Fitness-Test (BFT)",
+      "description": "German Navy fitness test: shuttle run, sit-ups, and push-ups to ensure maritime readiness.",
+      "introduction": [
+        "The Basis-Fitness-Test (BFT) is a mandatory fitness evaluation for all German Navy personnel, designed to maintain the physical standards required for maritime operations. Administered annually, the BFT assesses endurance, core strength, and upper body power, reflecting the demands of shipboard duties and emergency scenarios.",
+        "The test comprises three components: an 11x10-meter shuttle run (sprint test), sit-ups, and push-ups, all performed within set time limits. Standards are adjusted based on age and gender, with sailors expected to meet minimum requirements to remain deployable. While the BFT is standardized across the German Armed Forces (Bundeswehr), naval personnel may also face additional swim tests during initial training.",
+        "This assessment ensures that German Navy sailors can handle physically taxing tasks, such as damage control or evacuation at sea, maintaining operational readiness across diverse naval roles."
+      ],
+      "components": [
+        {
+          "name": "Shuttle Run",
+          "evaluation": "Time to complete 11x10m sprints",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 60,
+              "unit": "sec"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 66,
+              "unit": "sec"
+            }
+          ]
+        },
+        {
+          "name": "Sit-ups",
+          "evaluation": "Maximum reps in 1 minute",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "min",
+              "value": 40,
+              "unit": "count"
+            },
+            {
+              "gender": "female",
+              "metric": "min",
+              "value": 35,
+              "unit": "count"
+            }
+          ]
+        },
+        {
+          "name": "Push-ups",
+          "evaluation": "Maximum reps in 1 minute",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "min",
+              "value": 30,
+              "unit": "count"
+            },
+            {
+              "gender": "female",
+              "metric": "min",
+              "value": 25,
+              "unit": "count"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "notes": "Swim test may be required for initial training."
+      },
+      "difficulty": 2
+    },
+    {
+      "id": "j6v8m3p1",
+      "country": "Italy",
+      "iso2code": "it",
+      "service": "Military",
+      "branch": "Navy",
+      "name": "Prove di Efficienza Fisica (PEF)",
+      "description": "Italian Navy fitness test: running, push-ups, and swimming to maintain sailor fitness standards.",
+      "introduction": [
+        "The Prove di Efficienza Fisica (PEF) is the Italian Navy’s physical fitness test, aimed at ensuring sailors are capable of performing their duties in demanding maritime environments. Conducted periodically, the PEF evaluates cardiovascular endurance, upper body strength, and swimming ability—key skills for naval service.",
+        "The test includes a 1,000-meter run, push-ups, and a 50-meter swim, reflecting the need for both land-based fitness and water proficiency. Standards vary by age and gender, with additional requirements for specialized roles such as divers or marines within the Navy’s San Marco Brigade.",
+        "The PEF is part of a broader commitment to operational readiness, ensuring Italian Navy personnel can respond effectively to emergencies at sea, from firefighting to man-overboard situations, while maintaining physical resilience throughout their careers."
+      ],
+      "components": [
+        {
+          "name": "Run",
+          "evaluation": "Time to complete distance",
+          "target": {
+            "value": 1,
+            "unit": "km"
+          },
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 4.5,
+              "unit": "min"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 5,
+              "unit": "min"
+            }
+          ]
+        },
+        {
+          "name": "Push-ups",
+          "evaluation": "Maximum reps in 1 minute",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "min",
+              "value": 25,
+              "unit": "count"
+            },
+            {
+              "gender": "female",
+              "metric": "min",
+              "value": 15,
+              "unit": "count"
+            }
+          ]
+        },
+        {
+          "name": "Swim",
+          "evaluation": "Time to complete distance",
+          "target": {
+            "value": 50,
+            "unit": "m"
+          },
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 60,
+              "unit": "sec"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 70,
+              "unit": "sec"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "notes": "Swimming component mandatory for all naval personnel."
+      },
+      "difficulty": 2
+    },
+    {
+      "id": "k2m5n9v4",
+      "country": "Spain",
+      "iso2code": "es",
+      "service": "Military",
+      "branch": "Navy",
+      "name": "Pruebas de Aptitud Física (PAF)",
+      "description": "Spanish Navy fitness test: running, push-ups, and swimming to ensure operational fitness.",
+      "introduction": [
+        "The Pruebas de Aptitud Física (PAF) is the Spanish Navy’s fitness assessment, designed to maintain the physical condition of its sailors for maritime and operational duties. Conducted annually or during training phases, the PAF tests endurance, strength, and swimming skills critical to naval service.",
+        "The test consists of a 3km run, push-ups, and a 50-meter swim, reflecting the dual demands of physical fitness on land and in water. Standards are adjusted by age and gender, with higher benchmarks for roles like naval infantry (Infantería de Marina) or special operations units.",
+        "The PAF ensures that Spanish Navy personnel are prepared for the physical challenges of shipboard life, including emergency response and survival at sea, reinforcing the Navy’s commitment to readiness and resilience."
+      ],
+      "components": [
+        {
+          "name": "Run",
+          "evaluation": "Time to complete distance",
+          "target": {
+            "value": 3,
+            "unit": "km"
+          },
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 14,
+              "unit": "min"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 16,
+              "unit": "min"
+            }
+          ]
+        },
+        {
+          "name": "Push-ups",
+          "evaluation": "Maximum reps in 1 minute",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "min",
+              "value": 20,
+              "unit": "count"
+            },
+            {
+              "gender": "female",
+              "metric": "min",
+              "value": 15,
+              "unit": "count"
+            }
+          ]
+        },
+        {
+          "name": "Swim",
+          "evaluation": "Time to complete distance",
+          "target": {
+            "value": 50,
+            "unit": "m"
+          },
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 55,
+              "unit": "sec"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 65,
+              "unit": "sec"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "notes": "Standards shown are for ages 20-30; adjustments apply for other age groups."
+      },
+      "difficulty": 2
+    },
+    {
+      "id": "l8x2p7k9",
+      "country": "Luxembourg",
+      "iso2code": "lu",
+      "service": "Civil",
+      "branch": "Police",
+      "name": "Concours d’Admission Physique (CAP)",
+      "description": "Luxembourg Police fitness test: running, strength exercises, and agility to ensure law enforcement readiness.",
+      "introduction": [
+        "The Concours d’Admission Physique (CAP) is the physical fitness test required for entry into the Grand Ducal Police, Luxembourg’s national police force. Designed to assess the physical capabilities of recruits, the CAP ensures candidates can handle the demands of law enforcement, from foot pursuits to emergency interventions.",
+        "The test includes a 2,000-meter run for endurance, a strength component with exercises like push-ups or pull-ups, and an agility course to evaluate coordination and speed. Standards are set to reflect the practical needs of policing in Luxembourg, a small but busy country with a mix of urban and rural challenges. Age and gender adjustments apply, but all candidates must meet a baseline to proceed to training at the Police School in Findel.",
+        "Once in service, officers face periodic fitness checks to maintain operational readiness, though the CAP is the gateway. It’s not as militarized as some European counterparts, reflecting Luxembourg’s peaceful vibe, but it still ensures officers can keep up with the job—whether chasing pickpockets in Luxembourg City or managing cross-border traffic."
+      ],
+      "components": [
+        {
+          "name": "Run",
+          "evaluation": "Time to complete distance",
+          "target": {
+            "value": 2,
+            "unit": "km"
+          },
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 10,
+              "unit": "min"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 11.5,
+              "unit": "min"
+            }
+          ]
+        },
+        {
+          "name": "Push-ups",
+          "evaluation": "Maximum reps in 1 minute",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "min",
+              "value": 20,
+              "unit": "count"
+            },
+            {
+              "gender": "female",
+              "metric": "min",
+              "value": 15,
+              "unit": "count"
+            }
+          ]
+        },
+        {
+          "name": "Agility Course",
+          "evaluation": "Time to complete obstacle circuit",
+          "target": {
+            "value": "varies",
+            "unit": "meters"
+          },
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 45,
+              "unit": "sec"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 50,
+              "unit": "sec"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "notes": "Part of broader recruitment including language and psychological tests."
+      },
+      "difficulty": 2
+    },
+    {
+      "id": "p3m7k9v2",
+      "country": "Netherlands",
+      "iso2code": "nl",
+      "service": "Civil",
+      "branch": "Police",
+      "name": "Fysieke Vaardigheidstoets (FVT)",
+      "description": "Dutch Police fitness test: running, strength, and agility circuit to ensure law enforcement capability.",
+      "introduction": [
+        "The Fysieke Vaardigheidstoets (FVT) is the physical aptitude test for the Dutch National Police (*Nationale Politie*), assessing the fitness of recruits and serving officers. It’s designed to ensure police can handle physically demanding tasks like pursuits, arrests, and public safety duties across the Netherlands’ urban and rural landscapes.",
+        "The FVT includes a 1.5km run for endurance, a strength component with push-ups, and a practical agility circuit mimicking real-world policing scenarios (e.g., climbing, crawling, dragging weights). Standards are set by the Police Academy (*Politieacademie*) and vary slightly by age and gender, with an emphasis on functional fitness over raw athleticism.",
+        "Recruits must pass the FVT to enter training, and officers face periodic retests to stay operational. The Netherlands’ flat terrain and bike-friendly culture don’t let cops off easy—this test ensures they’re ready for action, not just pedaling after suspects!"
+      ],
+      "components": [
+        {
+          "name": "Run",
+          "evaluation": "Time to complete distance",
+          "target": {
+            "value": 1.5,
+            "unit": "km"
+          },
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 8,
+              "unit": "min"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 9,
+              "unit": "min"
+            }
+          ]
+        },
+        {
+          "name": "Push-ups",
+          "evaluation": "Maximum reps in 1 minute",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "min",
+              "value": 25,
+              "unit": "count"
+            },
+            {
+              "gender": "female",
+              "metric": "min",
+              "value": 15,
+              "unit": "count"
+            }
+          ]
+        },
+        {
+          "name": "Agility Circuit",
+          "evaluation": "Time to complete scenario-based course",
+          "target": {
+            "value": "varies",
+            "unit": "meters"
+          },
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 60,
+              "unit": "sec"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 65,
+              "unit": "sec"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "notes": "Circuit includes tasks like jumping obstacles and dragging a dummy."
+      },
+      "difficulty": 2
+    },
+    {
+      "id": "k5v9m2p8",
+      "country": "Sweden",
+      "iso2code": "se",
+      "service": "Civil",
+      "branch": "Police",
+      "name": "Fystest för Poliser (FTP)",
+      "description": "Swedish Police fitness test: endurance run, strength exercises, and agility to maintain law enforcement standards.",
+      "introduction": [
+        "The Fystest för Poliser (FTP) is the physical fitness assessment for the Swedish Police Authority (*Polismyndigheten*), ensuring officers are fit for the demands of policing Sweden’s cities, forests, and coastal areas. It’s a requirement for entry into the Swedish Police Academy and part of ongoing fitness evaluations.",
+        "The test features a 2km run for cardiovascular endurance, a strength component with pull-ups or push-ups, and an agility test to assess coordination and speed under pressure. Standards account for age and gender, reflecting Sweden’s practical approach to policing—functional fitness for real-world scenarios like crowd control or rural patrols.",
+        "Sweden’s emphasis on equality and preparedness means the FTP isn’t overly brutal, but it’s no walk in the park either. Officers need to keep up with this to handle everything from Stockholm riots to chasing suspects across snowy trails."
+      ],
+      "components": [
+        {
+          "name": "Run",
+          "evaluation": "Time to complete distance",
+          "target": {
+            "value": 2,
+            "unit": "km"
+          },
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 9.5,
+              "unit": "min"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 10.5,
+              "unit": "min"
+            }
+          ]
+        },
+        {
+          "name": "Pull-ups",
+          "evaluation": "Maximum reps in one set",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "min",
+              "value": 5,
+              "unit": "count"
+            },
+            {
+              "gender": "female",
+              "metric": "min",
+              "value": 3,
+              "unit": "count"
+            }
+          ]
+        },
+        {
+          "name": "Agility Test",
+          "evaluation": "Time to complete obstacle course",
+          "target": {
+            "value": "varies",
+            "unit": "meters"
+          },
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 50,
+              "unit": "sec"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 55,
+              "unit": "sec"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "notes": "Push-ups can substitute pull-ups based on testing conditions."
+      },
+      "difficulty": 2
+    },
+    {
+      "id": "f9k2m7v3",
+      "country": "United Kingdom",
+      "iso2code": "gb",
+      "service": "Civil",
+      "branch": "Fire Service",
+      "name": "National Firefighter Fitness Test (NFFT)",
+      "description": "UK Firefighter fitness test: bleep test, equipment carry, and ladder lift to ensure operational readiness.",
+      "introduction": [
+        "The National Firefighter Fitness Test (NFFT) is a cornerstone of the UK Fire and Rescue Service’s recruitment and ongoing assessment process, ensuring firefighters can tackle the physical demands of emergencies like fires, rescues, and hazardous incidents. It’s designed to test aerobic capacity, strength, and coordination under pressure.",
+        "The NFFT includes a multi-stage fitness test (bleep test) for endurance, an equipment carry to simulate hauling gear, and a ladder lift to mimic raising equipment at height. Standards vary by service and role, but all firefighters must pass to join and maintain fitness annually. The bleep test targets a VO2 max of 42.3 ml/kg/min, a national benchmark for operational capability.",
+        "From London high-rises to rural blazes, UK firefighters need to drag hoses, carry casualties, and climb ladders fast. The NFFT ensures they’re up to it—no sitting around eating scones when lives are on the line!"
+      ],
+      "components": [
+        {
+          "name": "Bleep Test",
+          "evaluation": "Progressive shuttle run to exhaustion",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "min",
+              "value": 8.8,
+              "unit": "level"
+            },
+            {
+              "gender": "female",
+              "metric": "min",
+              "value": 8.8,
+              "unit": "level"
+            }
+          ]
+        },
+        {
+          "name": "Equipment Carry",
+          "evaluation": "Time to complete 550m shuttle with gear",
+          "target": {
+            "value": 550,
+            "unit": "m"
+          },
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 5.78,
+              "unit": "min"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 5.78,
+              "unit": "min"
+            }
+          ]
+        },
+        {
+          "name": "Ladder Lift",
+          "evaluation": "Lift 15kg bar to 1.82m height",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "min",
+              "value": 1,
+              "unit": "reps"
+            },
+            {
+              "gender": "female",
+              "metric": "min",
+              "value": 1,
+              "unit": "reps"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "notes": "Equipment carry includes hoses and pump simulator; times may vary by regional service."
+      },
+      "difficulty": 3
+    },
+    {
+      "id": "h5m9p2k7",
+      "country": "France",
+      "iso2code": "fr",
+      "service": "Civil",
+      "branch": "Fire Service",
+      "name": "Épreuve Physique des Sapeurs-Pompiers (EPSP)",
+      "description": "French Firefighter fitness test: shuttle run, pull-ups, and obstacle course for emergency readiness.",
+      "introduction": [
+        "The Épreuve Physique des Sapeurs-Pompiers (EPSP) is the physical fitness test for France’s firefighters, the *Sapeurs-Pompiers*, who serve both urban and rural communities. It evaluates the endurance, strength, and agility needed to fight fires, rescue victims, and navigate tough terrain.",
+        "The EPSP features a Luc Léger shuttle run for cardio, pull-ups for upper body strength, and an obstacle course to test practical skills under simulated firefighting conditions. Professional firefighters (about 40,000) and volunteers (over 200,000) must pass this to join, with regulars facing annual checks. Standards adjust for age and gender, but elite units like Paris’s BSPP (*Brigade de Sapeurs-Pompiers de Paris*) demand more.",
+        "Whether hauling hoses up a Parisian tenement or cutting through a wrecked car, French firefighters need to be tough. The EPSP ensures they can handle the heat—literally and figuratively."
+      ],
+      "components": [
+        {
+          "name": "Shuttle Run (Luc Léger)",
+          "evaluation": "Progressive endurance test",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "min",
+              "value": 7,
+              "unit": "level"
+            },
+            {
+              "gender": "female",
+              "metric": "min",
+              "value": 6,
+              "unit": "level"
+            }
+          ]
+        },
+        {
+          "name": "Pull-ups",
+          "evaluation": "Maximum reps in one set",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "min",
+              "value": 5,
+              "unit": "count"
+            },
+            {
+              "gender": "female",
+              "metric": "min",
+              "value": 3,
+              "unit": "count"
+            }
+          ]
+        },
+        {
+          "name": "Obstacle Course",
+          "evaluation": "Time to complete scenario-based circuit",
+          "target": {
+            "value": "varies",
+            "unit": "meters"
+          },
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 4,
+              "unit": "min"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 4.5,
+              "unit": "min"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "notes": "Obstacle course includes climbing and crawling tasks."
+      },
+      "difficulty": 3
+    },
+    {
+      "id": "m2k7v9p4",
+      "country": "Portugal",
+      "iso2code": "pt",
+      "service": "Civil",
+      "branch": "Fire Service",
+      "name": "Teste de Aptidão Física (TAF)",
+      "description": "Portuguese Firefighter fitness test: running, push-ups, and equipment handling for firefighting readiness.",
+      "introduction": [
+        "The Teste de Aptidão Física (TAF) is the fitness assessment for Portugal’s *Bombeiros*, the firefighters who protect everything from Lisbon’s streets to the wildfire-prone countryside. It tests endurance, strength, and the ability to manage firefighting gear under pressure.",
+        "The TAF includes a 2.4km run for cardio fitness, push-ups for upper body power, and an equipment handling task to simulate real-world duties like hose deployment or victim rescue. Portugal’s mix of professional and volunteer firefighters (around 30,000 total) must pass this to serve, with annual retests for pros. Wildfires are a big deal here, so stamina is non-negotiable.",
+        "From battling summer blazes to urban rescues, the *Bombeiros* need to be fit and fast. The TAF keeps them ready—because no one’s waiting for a breather when the flames are roaring."
+      ],
+      "components": [
+        {
+          "name": "Run",
+          "evaluation": "Time to complete distance",
+          "target": {
+            "value": 2.4,
+            "unit": "km"
+          },
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 11,
+              "unit": "min"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 12.5,
+              "unit": "min"
+            }
+          ]
+        },
+        {
+          "name": "Push-ups",
+          "evaluation": "Maximum reps in 1 minute",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "min",
+              "value": 25,
+              "unit": "count"
+            },
+            {
+              "gender": "female",
+              "metric": "min",
+              "value": 15,
+              "unit": "count"
+            }
+          ]
+        },
+        {
+          "name": "Equipment Handling",
+          "evaluation": "Time to complete gear transport",
+          "target": {
+            "value": 100,
+            "unit": "m"
+          },
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 90,
+              "unit": "sec"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 100,
+              "unit": "sec"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "notes": "Equipment includes hoses and a 20kg simulator."
+      },
+      "difficulty": 2
+    },
+    {
+      "id": "p7m3k9v1",
+      "country": "Ireland",
+      "iso2code": "ie",
+      "service": "Civil",
+      "branch": "Medical Service",
+      "name": "Physical Competency Assessment (PCA)",
+      "description": "Irish Paramedic fitness test: step test, stretcher lift, and endurance run for emergency response readiness.",
+      "introduction": [
+        "The Physical Competency Assessment (PCA) is the fitness test for Ireland’s National Ambulance Service (NAS), ensuring paramedics can meet the physical demands of pre-hospital care. From rural roads to Dublin’s busy streets, it tests the ability to respond fast and carry out life-saving tasks under pressure.",
+        "The PCA includes a step test for cardiovascular fitness, a stretcher lift to simulate patient transport, and a 1.6km run for endurance. Standards are set by the Health Service Executive (HSE) and apply to recruits and serving paramedics, with no major gender or age adjustments—everyone needs to be fit for the job.",
+        "Irish paramedics lift patients, haul equipment, and sprint to scenes, often in unpredictable weather. The PCA keeps them ready to roll, whether it’s a heart attack in Galway or a crash on the M50."
+      ],
+      "components": [
+        {
+          "name": "Step Test",
+          "evaluation": "Steps per minute for 5 minutes",
+          "target": {
+            "value": 30,
+            "unit": "steps/min"
+          },
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "min",
+              "value": 5,
+              "unit": "min"
+            },
+            {
+              "gender": "female",
+              "metric": "min",
+              "value": 5,
+              "unit": "min"
+            }
+          ]
+        },
+        {
+          "name": "Stretcher Lift",
+          "evaluation": "Lift and carry 80kg stretcher over 10m",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "min",
+              "value": 1,
+              "unit": "reps"
+            },
+            {
+              "gender": "female",
+              "metric": "min",
+              "value": 1,
+              "unit": "reps"
+            }
+          ]
+        },
+        {
+          "name": "Run",
+          "evaluation": "Time to complete distance",
+          "target": {
+            "value": 1.6,
+            "unit": "km"
+          },
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 9,
+              "unit": "min"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 9,
+              "unit": "min"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "notes": "Stretcher lift performed with a partner."
+      },
+      "difficulty": 2
+    },
+    {
+      "id": "m5k9p2v7",
+      "country": "Spain",
+      "iso2code": "es",
+      "service": "Civil",
+      "branch": "Medical Service",
+      "name": "Prueba de Aptitud Física para Sanitarios (PAFS)",
+      "description": "Spanish Paramedic fitness test: running, push-ups, and patient carry for medical emergency response.",
+      "introduction": [
+        "The Prueba de Aptitud Física para Sanitarios (PAFS) is the fitness test for Spain’s Emergency Medical Services (*Servicios de Emergencias Sanitarias*), ensuring paramedics can handle the physical rigors of urgent care across urban centers and remote regions. It’s part of recruitment and periodic evaluations.",
+        "The PAFS includes a 2km run for endurance, push-ups for upper body strength, and a patient carry task to mimic transporting an injured person. Regional services like SAMUR in Madrid or 061 in Andalusia may tweak standards, but the core test is consistent, with slight adjustments for age.",
+        "Spanish paramedics deal with everything from beach rescues to mountain extractions. The PAFS ensures they’re fit to lug stretchers, climb stairs, and keep going when the siesta’s not an option."
+      ],
+      "components": [
+        {
+          "name": "Run",
+          "evaluation": "Time to complete distance",
+          "target": {
+            "value": 2,
+            "unit": "km"
+          },
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 10,
+              "unit": "min"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 11,
+              "unit": "min"
+            }
+          ]
+        },
+        {
+          "name": "Push-ups",
+          "evaluation": "Maximum reps in 1 minute",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "min",
+              "value": 20,
+              "unit": "count"
+            },
+            {
+              "gender": "female",
+              "metric": "min",
+              "value": 15,
+              "unit": "count"
+            }
+          ]
+        },
+        {
+          "name": "Patient Carry",
+          "evaluation": "Carry 70kg dummy over 50m",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 60,
+              "unit": "sec"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 65,
+              "unit": "sec"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "notes": "Patient carry simulates real-world stretcher transport."
+      },
+      "difficulty": 2
+    },
+    {
+      "id": "k3v9m7p2",
+      "country": "Denmark",
+      "iso2code": "dk",
+      "service": "Civil",
+      "branch": "Medical Service",
+      "name": "Fysisk Test for Reddere (FTR)",
+      "description": "Danish Paramedic fitness test: bike ergometer, lifting, and endurance run for emergency medical response.",
+      "introduction": [
+        "The Fysisk Test for Reddere (FTR) is the physical fitness assessment for Denmark’s ambulance service personnel (*Redder*), ensuring they can perform under the demands of emergency medical care. Managed by regional health authorities like Falck, it’s a requirement for paramedics and EMTs alike.",
+        "The FTR includes a bike ergometer test for cardiovascular fitness, a lifting task to simulate patient handling, and a 1.5km run for stamina. Denmark’s flat terrain and cycling culture influence the bike focus, but the test still demands all-around fitness. Standards are uniform, with periodic retests to keep crews sharp.",
+        "From Copenhagen’s busy streets to Jutland’s rural calls, Danish paramedics need to lift, carry, and move fast. The FTR ensures they’re ready—no pausing for a *smørrebrød* break when the siren’s on."
+      ],
+      "components": [
+        {
+          "name": "Bike Ergometer",
+          "evaluation": "Power output over 5 minutes",
+          "target": {
+            "value": 200,
+            "unit": "watts"
+          },
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "min",
+              "value": 5,
+              "unit": "min"
+            },
+            {
+              "gender": "female",
+              "metric": "min",
+              "value": 5,
+              "unit": "min"
+            }
+          ]
+        },
+        {
+          "name": "Lifting Task",
+          "evaluation": "Lift 50kg from floor to chest height",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "min",
+              "value": 5,
+              "unit": "reps"
+            },
+            {
+              "gender": "female",
+              "metric": "min",
+              "value": 5,
+              "unit": "reps"
+            }
+          ]
+        },
+        {
+          "name": "Run",
+          "evaluation": "Time to complete distance",
+          "target": {
+            "value": 1.5,
+            "unit": "km"
+          },
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 8.5,
+              "unit": "min"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 9.5,
+              "unit": "min"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "notes": "Bike test reflects Denmark’s cycling infrastructure."
+      },
+      "difficulty": 2
+    },
+    {
+      "id": "b9k2m7v1",
+      "country": "United Kingdom",
+      "iso2code": "gb",
+      "service": "Military",
+      "branch": "Special Forces",
+      "name": "Covert Operative Selection Trial (COST)",
+      "description": "UK Black Ops fitness test: HALO jump simulation, stealth run, and knife combat for elite covert readiness.",
+      "introduction": [
+        "The Covert Operative Selection Trial (COST) is the grueling entry test for the UK’s elite black ops units—think SAS or SBS with a license to thrill. Designed to weed out all but the toughest, it simulates the physical and mental demands of top-secret missions, from high-altitude drops to silent takedowns behind enemy lines.",
+        "The COST includes a HALO (High Altitude, Low Opening) jump simulation with a weighted pack, a 5km stealth run through obstacle-laden terrain, and a knife combat drill against multiple targets. Recruits must complete it with minimal gear—say, a pocket knife and a winning smile—to prove they can improvise and dominate. Standards are brutal, no gender splits; you’re either in or you’re out.",
+        "Picture this: you’re over Bulgaria in a Cessna, chute opens at the last second, and you land ready to vanish into the shadows. The COST ensures you’ve got the stamina, strength, and swagger to pull it off—Bond would approve."
+      ],
+      "components": [
+        {
+          "name": "HALO Jump Simulation",
+          "evaluation": "Carry 20kg pack up 10m tower, descend in under 20 sec",
+          "scoring": [
+            {
+              "gender": "unisex",
+              "metric": "max",
+              "value": 20,
+              "unit": "sec"
+            }
+          ]
+        },
+        {
+          "name": "Stealth Run",
+          "evaluation": "5km run with obstacles, undetected",
+          "target": {
+            "value": 5,
+            "unit": "km"
+          },
+          "scoring": [
+            {
+              "gender": "unisex",
+              "metric": "max",
+              "value": 30,
+              "unit": "min"
+            }
+          ]
+        },
+        {
+          "name": "Knife Combat Drill",
+          "evaluation": "Neutralize 5 targets with pocket knife in 1 min",
+          "scoring": [
+            {
+              "gender": "unisex",
+              "metric": "min",
+              "value": 5,
+              "unit": "count"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "notes": "Socks optional; smile mandatory."
+      },
+      "difficulty": 4
+    },
+    {
+      "id": "j5m9p2k3",
+      "country": "France",
+      "iso2code": "fr",
+      "service": "Military",
+      "branch": "Special Forces",
+      "name": "Mission Clandestine Épreuve (MCE)",
+      "description": "French Black Ops fitness test: swim escape, rooftop sprint, and improvised weapon trial for covert ops.",
+      "introduction": [
+        "The Mission Clandestine Épreuve (MCE) is the proving ground for France’s black ops elite—think GIGN or Commandos Marine with a flair for the dramatic. It’s built to test operatives who might drop into Bulgaria from a Cessna, armed with just socks, a knife, and charm, ready to outwit any foe.",
+        "The MCE features a 500m swim escape under pursuit conditions, a 2km rooftop sprint with jumps and climbs, and an improvised weapon trial where you take down targets with whatever’s handy (knife, socks, you name it). No gender tweaks—standards are sky-high for all, reflecting the need for speed, strength, and suave improvisation.",
+        "Imagine evading capture in Sofia’s backstreets, leaping rooftops, and turning a sock into a garrote. The MCE ensures you’re the full package—lethal, agile, and effortlessly cool."
+      ],
+      "components": [
+        {
+          "name": "Swim Escape",
+          "evaluation": "500m swim with 10kg pack under timed pursuit",
+          "target": {
+            "value": 500,
+            "unit": "m"
+          },
+          "scoring": [
+            {
+              "gender": "unisex",
+              "metric": "max",
+              "value": 8,
+              "unit": "min"
+            }
+          ]
+        },
+        {
+          "name": "Rooftop Sprint",
+          "evaluation": "2km run with jumps and climbs",
+          "target": {
+            "value": 2,
+            "unit": "km"
+          },
+          "scoring": [
+            {
+              "gender": "unisex",
+              "metric": "max",
+              "value": 12,
+              "unit": "min"
+            }
+          ]
+        },
+        {
+          "name": "Improvised Weapon Trial",
+          "evaluation": "Neutralize 3 targets with pocket knife or socks",
+          "scoring": [
+            {
+              "gender": "unisex",
+              "metric": "max",
+              "value": 45,
+              "unit": "sec"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "notes": "Pocket knife must be French-made; smile must be disarming."
+      },
+      "difficulty": 4
+    },
+    {
+      "id": "v2k7m9p5",
+      "country": "Russia",
+      "iso2code": "ru",
+      "service": "Military",
+      "branch": "Special Forces",
+      "name": "Ten’ Operative Assessment (TOA)",
+      "description": "Russian Black Ops fitness test: arctic run, hand-to-hand combat, and parachute drop for shadow ops readiness.",
+      "introduction": [
+        "The Ten’ Operative Assessment (TOA) is the shadowy crucible for Russia’s Spetsnaz black ops—elite operatives who’d jump from a Cessna over Bulgaria with socks, a knife, and a grin that says ‘I’ve got this.’ It’s all about raw power, endurance, and ruthless efficiency.",
+        "The TOA includes a 10km arctic run in subzero conditions, a hand-to-hand combat trial against multiple foes, and a parachute drop simulation with a 15kg pack. No gender splits—Spetsnaz don’t care; you either survive or you don’t. It’s designed for operatives who thrive in the dark, cold corners of the world.",
+        "Drop into the Bulgarian wilderness, take out a target with a knife, and vanish before the snow settles. The TOA ensures you’re a ghost with muscle—Bond’s got nothing on this level of grit."
+      ],
+      "components": [
+        {
+          "name": "Arctic Run",
+          "evaluation": "Run in -10°C with 20kg pack",
+          "target": {
+            "value": 10,
+            "unit": "km"
+          },
+          "scoring": [
+            {
+              "gender": "unisex",
+              "metric": "max",
+              "value": 60,
+              "unit": "min"
+            }
+          ]
+        },
+        {
+          "name": "Hand-to-Hand Combat",
+          "evaluation": "Defeat 4 opponents with knife or bare hands",
+          "scoring": [
+            {
+              "gender": "unisex",
+              "metric": "max",
+              "value": 90,
+              "unit": "sec"
+            }
+          ]
+        },
+        {
+          "name": "Parachute Drop Simulation",
+          "evaluation": "Land 15kg pack from 5m height, sprint 100m",
+          "scoring": [
+            {
+              "gender": "unisex",
+              "metric": "max",
+              "value": 25,
+              "unit": "sec"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "notes": "Socks must be wool; smile optional but intimidating."
+      },
+      "difficulty": 5
+    },
+    {
+      "id": "s9k2m7v8",
+      "country": "United States",
+      "iso2code": "us",
+      "service": "Military",
+      "branch": "Navy",
+      "name": "Basic Underwater Demolition/SEAL (BUD/S)",
+      "description": "U.S. Navy SEAL fitness test: Hell Week endurance, combat diving, and land warfare for elite special ops readiness.",
+      "introduction": [
+        "Basic Underwater Demolition/SEAL (BUD/S) is the legendary 24-week crucible for U.S. Navy SEAL candidates, held at Coronado, California. It’s designed to break you down and build you back into a warrior capable of anything—drop from a Cessna over Bulgaria with socks and a knife? These guys could do it smiling.",
+        "BUD/S has three phases: First Phase (8 weeks) hammers physical conditioning with Hell Week—five days of relentless cold, wet, sleep-deprived torture. Second Phase (8 weeks) dives into combat swimming, mastering SCUBA and long underwater transits. Third Phase (9 weeks) tackles land warfare—weapons, demolitions, and tactics. Attrition’s brutal—70-85% don’t make it. No gender split; it’s unisex pain.",
+        "From Pacific surf to desert ops, BUD/S grads are ready for global missions. It’s not just training—it’s a rite of passage for America’s top-tier black ops crew."
+      ],
+      "components": [
+        {
+          "name": "Hell Week Run",
+          "evaluation": "4-mile beach run in boots during Hell Week",
+          "target": {
+            "value": 4,
+            "unit": "miles"
+          },
+          "scoring": [
+            {
+              "gender": "unisex",
+              "metric": "max",
+              "value": 32,
+              "unit": "min"
+            }
+          ]
+        },
+        {
+          "name": "Ocean Swim",
+          "evaluation": "2-mile swim with fins",
+          "target": {
+            "value": 2,
+            "unit": "miles"
+          },
+          "scoring": [
+            {
+              "gender": "unisex",
+              "metric": "max",
+              "value": 80,
+              "unit": "min"
+            }
+          ]
+        },
+        {
+          "name": "Obstacle Course",
+          "evaluation": "Complete course with rope climbs and barriers",
+          "scoring": [
+            {
+              "gender": "unisex",
+              "metric": "max",
+              "value": 10,
+              "unit": "min"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "notes": "Hell Week includes 20+ hours daily training, 4 hours sleep total."
+      },
+      "difficulty": 5
+    },
+    {
+      "id": "e7k9m2p4",
+      "country": "Norway",
+      "iso2code": "no",
+      "service": "Military",
+      "branch": "Special Forces",
+      "name": "Spesialjeger Selection (SJS)",
+      "description": "Norwegian Black Ops fitness test: arctic march, ice swim, and combat simulation for elite special forces.",
+      "introduction": [
+        "The Spesialjeger Selection (SJS) is the entry gauntlet for Norway’s Forsvarets Spesialkommando (FSK), the country’s top-tier special forces. Think black ops in fjords—parachuting from a Cessna over Bulgaria’s mountains is child’s play compared to surviving Norway’s frozen hell.",
+        "SJS is a year-long ordeal, but the initial 3-month phase is the killer: a 50km arctic march with a 40kg pack, a 1km ice swim in subzero waters, and a combat simulation with live fire and evasion. No gender tweaks—standards are arctic-tough. Attrition’s high; only 10-15% pass. It’s built for operatives who thrive in silence and snow.",
+        "FSK operatives handle counter-terrorism and covert ops worldwide. SJS ensures they’re unbreakable—drop them anywhere, and they’ll outlast, outfight, and outsmile the enemy."
+      ],
+      "components": [
+        {
+          "name": "Arctic March",
+          "evaluation": "50km march with 40kg pack in -20°C",
+          "target": {
+            "value": 50,
+            "unit": "km"
+          },
+          "scoring": [
+            {
+              "gender": "unisex",
+              "metric": "max",
+              "value": 20,
+              "unit": "hours"
+            }
+          ]
+        },
+        {
+          "name": "Ice Swim",
+          "evaluation": "1km swim in freezing water",
+          "target": {
+            "value": 1,
+            "unit": "km"
+          },
+          "scoring": [
+            {
+              "gender": "unisex",
+              "metric": "max",
+              "value": 25,
+              "unit": "min"
+            }
+          ]
+        },
+        {
+          "name": "Combat Simulation",
+          "evaluation": "Neutralize 5 targets, evade capture",
+          "scoring": [
+            {
+              "gender": "unisex",
+              "metric": "max",
+              "value": 60,
+              "unit": "min"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "notes": "Socks must be wool; knife optional but recommended."
+      },
+      "difficulty": 5
+    },
+    {
+      "id": "g2m7k9v6",
+      "country": "Poland",
+      "iso2code": "pl",
+      "service": "Military",
+      "branch": "Special Forces",
+      "name": "GROM Operative Trials (GOT)",
+      "description": "Polish Black Ops fitness test: ruck march, urban assault, and survival trek for elite special ops.",
+      "introduction": [
+        "The GROM Operative Trials (GOT) is the punishing selection for Poland’s JW GROM, a special forces unit named after thunder and built for stealth and destruction. These are the guys who’d jump from a Cessna over Bulgaria, pocket knife in hand, and charm their way out of a firefight.",
+        "GOT’s initial phase lasts 3 months, testing endurance, combat skills, and raw survival: a 40km ruck march with a 30kg pack, an urban assault course with live ammo, and a 72-hour survival trek with minimal gear. Standards are unisex and relentless—only 5-10% make it. It’s designed for operatives who can strike anywhere, anytime.",
+        "GROM’s handled everything from Iraq to hostage rescues. GOT ensures they’re lethal, adaptable, and grinning through the chaos—true black ops royalty."
+      ],
+      "components": [
+        {
+          "name": "Ruck March",
+          "evaluation": "Ruck march with 30kg pack",
+          "target": {
+            "value": 40,
+            "unit": "km"
+          },
+          "scoring": [
+            {
+              "gender": "unisex",
+              "metric": "max",
+              "value": 12,
+              "unit": "hours"
+            }
+          ]
+        },
+        {
+          "name": "Urban Assault",
+          "evaluation": "Clear 3 rooms, 10 targets with live ammo",
+          "scoring": [
+            {
+              "gender": "unisex",
+              "metric": "max",
+              "value": 90,
+              "unit": "sec"
+            }
+          ]
+        },
+        {
+          "name": "Survival Trek",
+          "evaluation": "72-hour trek with knife and socks",
+          "scoring": [
+            {
+              "gender": "unisex",
+              "metric": "max",
+              "value": 72,
+              "unit": "hours"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "notes": "Smile must intimidate; pocket knife must be sharp."
+      },
+      "difficulty": 5
+    },
+    {
+      "id": "d9k2m7v5",
+      "country": "United States",
+      "iso2code": "us",
+      "service": "Military",
+      "branch": "Special Forces",
+      "name": "Operator Training Course Assessment (OTCA)",
+      "description": "U.S. Delta Force fitness test: ruck march, navigation, and live-fire assault for Tier 1 black ops readiness.",
+      "introduction": [
+        "The Operator Training Course Assessment (OTCA) is the gateway to America’s 1st Special Forces Operational Detachment-Delta—Delta Force. Shrouded in secrecy, this 6-month selection process turns elite soldiers into Tier 1 operatives who handle the missions no one talks about—hostage rescues, counter-terrorism, deep-cover ops.",
+        "The OTCA’s core includes a 40-mile ruck march with a 50lb pack over rugged terrain, a land navigation test with no GPS (just map and compass), and a live-fire assault on a kill house—moving targets, split-second decisions. No public standards; it’s pass-or-go-home, and 90% wash out. Sleep’s a luxury, food’s scarce—pure mental and physical hell.",
+        "Delta’s the tip of the spear—think bin Laden raid. The OTCA ensures they’re silent, deadly, and unstoppable. You don’t hear about these guys because you’re not supposed to."
+      ],
+      "components": [
+        {
+          "name": "Ruck March",
+          "evaluation": "40 miles with 50lb pack, no stops",
+          "target": {
+            "value": 40,
+            "unit": "miles"
+          },
+          "scoring": [
+            {
+              "gender": "unisex",
+              "metric": "max",
+              "value": 18,
+              "unit": "hours"
+            }
+          ]
+        },
+        {
+          "name": "Land Navigation",
+          "evaluation": "Find 5 points over 20 miles, map only",
+          "target": {
+            "value": 20,
+            "unit": "miles"
+          },
+          "scoring": [
+            {
+              "gender": "unisex",
+              "metric": "max",
+              "value": 12,
+              "unit": "hours"
+            }
+          ]
+        },
+        {
+          "name": "Live-Fire Assault",
+          "evaluation": "Clear kill house, 10 targets, no misses",
+          "scoring": [
+            {
+              "gender": "unisex",
+              "metric": "max",
+              "value": 60,
+              "unit": "sec"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "notes": "Failure means you never existed here."
+      },
+      "difficulty": 5
+    },
+    {
+      "id": "i5m9p2k8",
+      "country": "Italy",
+      "iso2code": "it",
+      "service": "Military",
+      "branch": "Special Forces",
+      "name": "Incursore Selection Program (ISP)",
+      "description": "Italian Black Ops fitness test: underwater endurance, cliff climb, and silent assault for naval commando ops.",
+      "introduction": [
+        "The Incursore Selection Program (ISP) is the trial for Italy’s COMSUBIN (Comando Subacquei ed Incursori)—naval commandos who blend scuba mastery with black ops ruthlessness. These are the guys who’d slip into a harbor undetected or storm a ship no one knew was a target.",
+        "ISP’s a 12-month meat grinder: 1km underwater swim with combat gear, a 15m cliff climb in full kit, and a silent assault drill—neutralize sentries without a sound. Attrition’s insane—only 10-20% survive the cut. No public fanfare; these operatives thrive in the shadows of Italy’s coastline and beyond.",
+        "From WWII frogmen legends to modern covert strikes, COMSUBIN’s the real deal. ISP ensures they’re tough as Roman stone—quiet, lethal, and gone before you blink."
+      ],
+      "components": [
+        {
+          "name": "Underwater Swim",
+          "evaluation": "1km swim with 20kg gear, no surfacing",
+          "target": {
+            "value": 1,
+            "unit": "km"
+          },
+          "scoring": [
+            {
+              "gender": "unisex",
+              "metric": "max",
+              "value": 20,
+              "unit": "min"
+            }
+          ]
+        },
+        {
+          "name": "Cliff Climb",
+          "evaluation": "15m ascent with 25kg pack",
+          "scoring": [
+            {
+              "gender": "unisex",
+              "metric": "max",
+              "value": 5,
+              "unit": "min"
+            }
+          ]
+        },
+        {
+          "name": "Silent Assault",
+          "evaluation": "Neutralize 3 sentries, no noise",
+          "scoring": [
+            {
+              "gender": "unisex",
+              "metric": "max",
+              "value": 90,
+              "unit": "sec"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "notes": "Knife required; socks stay dry."
+      },
+      "difficulty": 5
+    },
+    {
+      "id": "s2k7m9v3",
+      "country": "Israel",
+      "iso2code": "il",
+      "service": "Military",
+      "branch": "Special Forces",
+      "name": "Gibbush Matkal Endurance (GME)",
+      "description": "Israeli Black Ops fitness test: desert ruck, team carry, and night raid for elite recon readiness.",
+      "introduction": [
+        "The Gibbush Matkal Endurance (GME) is the brutal selection for Israel’s Sayeret Matkal—think Entebbe raid masterminds, the IDF’s top-tier black ops unit. These are the operatives who vanish into deserts or cities, leaving no trace but results.",
+        "GME’s a 5-day nonstop hell: 60km desert ruck with a 30kg pack, a team carry of a 100kg stretcher over 10km, and a night raid simulation—stealth kills and exfil under fire. No sleep, minimal water, and a dropout rate pushing 95%. It’s not about gender; it’s about who’s left standing.",
+        "Sayeret Matkal’s handled ops the world barely whispers about. GME forges them into ghosts—tougher than nails, smarter than most, and invisible by design."
+      ],
+      "components": [
+        {
+          "name": "Desert Ruck",
+          "evaluation": "Ruck March",
+          "target": {
+            "value": 60,
+            "unit": "km"
+          },
+          "scoring": [
+            {
+              "gender": "unisex",
+              "metric": "max",
+              "value": 24,
+              "unit": "hours"
+            }
+          ]
+        },
+        {
+          "name": "Team Carry",
+          "evaluation": "100kg carry",
+          "target": {
+            "value": 10,
+            "unit": "km"
+          },
+          "scoring": [
+            {
+              "gender": "unisex",
+              "metric": "max",
+              "value": 3,
+              "unit": "hours"
+            }
+          ]
+        },
+        {
+          "name": "Night Raid",
+          "evaluation": "Infiltrate, eliminate 5 targets, exfil",
+          "scoring": [
+            {
+              "gender": "unisex",
+              "metric": "max",
+              "value": 45,
+              "unit": "min"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "notes": "Socks get sandy; survival trumps smiles."
+      },
+      "difficulty": 5
+    },
+    {
+      "id": "v1k2m7p3",
+      "country": "Germany",
+      "iso2code": "de",
+      "service": "Civil",
+      "branch": "Fire Service",
+      "name": "Grundausbildung Fitnessprüfung (GFP)",
+      "description": "German Volunteer Firefighter fitness test: short run, hose carry, and ladder climb for basic emergency readiness.",
+      "introduction": [
+        "The Grundausbildung Fitnessprüfung (GFP) is the entry-level fitness test for Germany’s volunteer firefighters (*Freiwillige Feuerwehr*), who make up over 90% of the country’s fire service. It’s designed to ensure new recruits can handle basic firefighting tasks without needing Olympic-level grit.",
+        "The GFP includes a 1km run for cardio, a 20m hose carry to test strength, and a ladder climb to 5m for coordination. It’s straightforward—age and gender don’t shift the bar much; it’s about showing you can pitch in during a village barn fire or a car crash.",
+        "Germany’s volunteers are everyday folks stepping up. The GFP gives new guys hope—they can start here and still save the day, no socks-and-knife heroics required."
+      ],
+      "components": [
+        {
+          "name": "Run",
+          "evaluation": "Time to complete distance",
+          "target": {
+            "value": 1,
+            "unit": "km"
+          },
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 6,
+              "unit": "min"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 7,
+              "unit": "min"
+            }
+          ]
+        },
+        {
+          "name": "Hose Carry",
+          "evaluation": "Carry 15kg hose 20m",
+          "target": {
+            "value": 20,
+            "unit": "m"
+          },
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 30,
+              "unit": "sec"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 35,
+              "unit": "sec"
+            }
+          ]
+        },
+        {
+          "name": "Ladder Climb",
+          "evaluation": "Ascend 5m ladder",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 20,
+              "unit": "sec"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 25,
+              "unit": "sec"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "notes": "Socks stay on; no fire required for test."
+      },
+      "difficulty": 1
+    },
+    {
+      "id": "e2m7k9p1",
+      "country": "Portugal",
+      "iso2code": "pt",
+      "service": "Civil",
+      "branch": "Fire Service",
+      "name": "Iniciação Física Básica (IPB)",
+      "description": "Portuguese Volunteer Firefighter fitness test: jog, gear lift, and teamwork drill for starter emergency skills.",
+      "introduction": [
+        "The Iniciação Física Básica (IPB) is the beginner fitness test for Portugal’s volunteer *Bombeiros*, the backbone of rural and small-town fire response. It’s a low-bar entry to get new recruits ready for basic firefighting and rescue duties—no elite stuff, just guts and effort.",
+        "The IPB has a 1.5km jog for stamina, a 10kg gear lift to mimic handling tools, and a teamwork drill where you pass a hose over a 2m wall with a partner. It’s chill enough for rookies but still proves you can hustle when the alarm rings.",
+        "Portugal’s volunteers fight wildfires and floods with heart. The IPB’s their first step—new guys can nail this and feel the pride, no 40km rucks needed."
+      ],
+      "components": [
+        {
+          "name": "Jog",
+          "evaluation": "Time to complete distance",
+          "target": {
+            "value": 1.5,
+            "unit": "km"
+          },
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 10,
+              "unit": "min"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 11,
+              "unit": "min"
+            }
+          ]
+        },
+        {
+          "name": "Gear Lift",
+          "evaluation": "Lift 10kg to chest height, 5 reps",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "min",
+              "value": 5,
+              "unit": "count"
+            },
+            {
+              "gender": "female",
+              "metric": "min",
+              "value": 5,
+              "unit": "count"
+            }
+          ]
+        },
+        {
+          "name": "Teamwork Drill",
+          "evaluation": "Pass hose over 2m wall with partner",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 45,
+              "unit": "sec"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 50,
+              "unit": "sec"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "notes": "Socks get dusty; teamwork makes the dream work."
+      },
+      "difficulty": 1
+    },
+    {
+      "id": "m3k9v2p7",
+      "country": "Sweden",
+      "iso2code": "se",
+      "service": "Civil",
+      "branch": "Medical Service",
+      "name": "Grundläggande Fysprov (GFP)",
+      "description": "Swedish EMT fitness test: short run, stretcher carry, and step test for basic medical response readiness.",
+      "introduction": [
+        "The Grundläggande Fysprov (GFP) is the entry fitness test for Sweden’s basic Emergency Medical Technicians (EMTs), part of the regional ambulance services. It’s built for newbies to prove they can handle the physical side of emergency care without needing superhero stats.",
+        "The GFP features a 1km run for endurance, a 10m stretcher carry with a 50kg dummy (partnered), and a step test for cardio resilience. Standards are lenient—age and gender tweaks keep it fair, but it’s all about showing you can move fast and lift when it counts.",
+        "Swedish EMTs rush to car wrecks and heart attacks across snowy plains or city streets. The GFP’s their starting line—simple enough to give rookies hope, tough enough to matter."
+      ],
+      "components": [
+        {
+          "name": "Run",
+          "evaluation": "Time to complete distance",
+          "target": {
+            "value": 1,
+            "unit": "km"
+          },
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 6.5,
+              "unit": "min"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 7.5,
+              "unit": "min"
+            }
+          ]
+        },
+        {
+          "name": "Stretcher Carry",
+          "evaluation": "Carry 50kg dummy 10m with partner",
+          "target": {
+            "value": 10,
+            "unit": "m"
+          },
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 25,
+              "unit": "sec"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 30,
+              "unit": "sec"
+            }
+          ]
+        },
+        {
+          "name": "Step Test",
+          "evaluation": "20 steps/min for 3 minutes",
+          "target": {
+            "value": 20,
+            "unit": "steps/min"
+          },
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "min",
+              "value": 3,
+              "unit": "min"
+            },
+            {
+              "gender": "female",
+              "metric": "min",
+              "value": 3,
+              "unit": "min"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "notes": "Socks stay cozy; no milk chugging required."
+      },
+      "difficulty": 2
+    },
+    {
+      "id": "g7k2m9v4",
+      "country": "Germany",
+      "iso2code": "de",
+      "service": "Military",
+      "branch": "Army",
+      "name": "Grundfitnessprüfung Soldaten (GFS)",
+      "description": "German Army fitness test: short run, push-ups, and sit-ups for basic soldier readiness.",
+      "introduction": [
+        "The Grundfitnessprüfung Soldaten (GFS) is the baseline fitness test for Germany’s regular army grunts (*Heer*), the guys who’d rather tackle a linebacker than a ledger. It’s the entry-level check for enlisted soldiers—nothing fancy, just proving you can keep up on a march or a firefight.",
+        "The GFS has a 1km run for cardio, push-ups for upper body strength, and sit-ups for core—simple stuff any sporty jarhead can nail. Standards are chill, with slight tweaks for age and gender, but it’s all about showing you’ve got the basics to haul a rifle and some socks through the woods.",
+        "These are the lads who’d wear socks as headgear in a Bavarian forest drill and still get the job done. The GFS keeps them fit enough to fight, not to count."
+      ],
+      "components": [
+        {
+          "name": "Run",
+          "evaluation": "Time to complete distance",
+          "target": {
+            "value": 1,
+            "unit": "km"
+          },
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 5.5,
+              "unit": "min"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 6,
+              "unit": "min"
+            }
+          ]
+        },
+        {
+          "name": "Push-ups",
+          "evaluation": "Maximum reps in 1 minute",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "min",
+              "value": 15,
+              "unit": "count"
+            },
+            {
+              "gender": "female",
+              "metric": "min",
+              "value": 10,
+              "unit": "count"
+            }
+          ]
+        },
+        {
+          "name": "Sit-ups",
+          "evaluation": "Maximum reps in 1 minute",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "min",
+              "value": 20,
+              "unit": "count"
+            },
+            {
+              "gender": "female",
+              "metric": "min",
+              "value": 15,
+              "unit": "count"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "notes": "Socks optional as headgear; no calculators allowed."
+      },
+      "difficulty": 1
+    },
+    {
+      "id": "u3m7k9p2",
+      "country": "United Kingdom",
+      "iso2code": "gb",
+      "service": "Military",
+      "branch": "Army",
+      "name": "Basic Combat Fitness Test (BCFT)",
+      "description": "UK Army fitness test: run, press-ups, and sit-ups for standard squaddie readiness.",
+      "introduction": [
+        "The Basic Combat Fitness Test (BCFT) is the entry hurdle for the UK Army’s regular soldiers—your classic squaddies who’d ace a rugby scrum but flunk a tax return. It’s the bare minimum to prove you’re fit for the field, not the boardroom.",
+        "The BCFT includes a 1.5-mile run (2.4km) for endurance, press-ups for strength, and sit-ups for core—stuff any ex-footballer can handle. Standards adjust a bit for age and gender, but it’s designed for the sporty jarhead who’d rather storm a hill than a spreadsheet.",
+        "These are the blokes who’d tie socks around their heads in a jungle op and still salute. The BCFT keeps them ready to march, fight, and banter—no accounting required."
+      ],
+      "components": [
+        {
+          "name": "Run",
+          "evaluation": "Time to complete distance",
+          "target": {
+            "value": 2.4,
+            "unit": "km"
+          },
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 12,
+              "unit": "min"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 14,
+              "unit": "min"
+            }
+          ]
+        },
+        {
+          "name": "Press-ups",
+          "evaluation": "Maximum reps in 2 minutes",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "min",
+              "value": 20,
+              "unit": "count"
+            },
+            {
+              "gender": "female",
+              "metric": "min",
+              "value": 15,
+              "unit": "count"
+            }
+          ]
+        },
+        {
+          "name": "Sit-ups",
+          "evaluation": "Maximum reps in 2 minutes",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "min",
+              "value": 30,
+              "unit": "count"
+            },
+            {
+              "gender": "female",
+              "metric": "min",
+              "value": 25,
+              "unit": "count"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "notes": "Socks double as sweatbands; no math drills here."
+      },
+      "difficulty": 2
+    },
+    {
+      "id": "s5k9m2v7",
+      "country": "Spain",
+      "iso2code": "es",
+      "service": "Military",
+      "branch": "Army",
+      "name": "Prueba Física Básica (PFB)",
+      "description": "Spanish Army fitness test: run, push-ups, and jump for regular troop readiness.",
+      "introduction": [
+        "The Prueba Física Básica (PFB) is the standard fitness test for Spain’s regular army soldiers (*Ejército de Tierra*)—the jarheads who’d dominate a pickup game but stare blankly at a balance sheet. It’s the entry-level bar for enlisted grunts, keeping them fit for duty.",
+        "The PFB features a 2km run for stamina, push-ups for strength, and a standing long jump for explosive power—perfect for the sporty type who’d rather kick a ball than count coins. Standards are easygoing, with tweaks for age and gender, but it’s all about basic soldiering chops.",
+        "These are the guys who’d rock socks as jungle headgear and still charge a hill. The PFB ensures they’re ready to fight, not finesse numbers."
+      ],
+      "components": [
+        {
+          "name": "Run",
+          "evaluation": "Time to complete distance",
+          "target": {
+            "value": 2,
+            "unit": "km"
+          },
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 10,
+              "unit": "min"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 11.5,
+              "unit": "min"
+            }
+          ]
+        },
+        {
+          "name": "Push-ups",
+          "evaluation": "Maximum reps in 1 minute",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "min",
+              "value": 15,
+              "unit": "count"
+            },
+            {
+              "gender": "female",
+              "metric": "min",
+              "value": 10,
+              "unit": "count"
+            }
+          ]
+        },
+        {
+          "name": "Standing Long Jump",
+          "evaluation": "Distance jumped from standstill",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "min",
+              "value": 1.8,
+              "unit": "m"
+            },
+            {
+              "gender": "female",
+              "metric": "min",
+              "value": 1.5,
+              "unit": "m"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "notes": "Socks make great headbands; accounting not tested."
+      },
+      "difficulty": 2
+    },
+    {
+      "id": "a1k7m2p9",
+      "country": "Austria",
+      "iso2code": "at",
+      "service": "Military",
+      "branch": "Army",
+      "name": "Fallschirmjäger Grundtest (FGT)",
+      "description": "Austrian Army Parachutist fitness test: run, pull-ups, and jump prep for basic airborne readiness.",
+      "introduction": [
+        "The Fallschirmjäger Grundtest (FGT) is the entry-level fitness check for Austria’s regular army parachutists (*Fallschirmjäger*), part of the Jagdkommando’s broader airborne tradition. These are the lads who’d rather grapple a parachute than a textbook—sporty types ready to leap from planes over the Alps.",
+        "The FGT keeps it simple: a 2km run for stamina, pull-ups for upper body strength, and a basic jump drill off a 1m platform to prep for chute landings. Standards are straightforward, with slight gender tweaks, but it’s built for the jock who can hustle in boots and wrestle a canopy down safely.",
+        "Austria’s airborne crew trains in rugged mountains, and the FGT ensures they’re fit to jump, land, and march—no accounting skills needed, just socks tough enough for Tyrolean drops."
+      ],
+      "components": [
+        {
+          "name": "Run",
+          "evaluation": "Time to complete distance",
+          "target": {
+            "value": 2,
+            "unit": "km"
+          },
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 10,
+              "unit": "min"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 11,
+              "unit": "min"
+            }
+          ]
+        },
+        {
+          "name": "Pull-ups",
+          "evaluation": "Maximum reps in one go",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "min",
+              "value": 5,
+              "unit": "count"
+            },
+            {
+              "gender": "female",
+              "metric": "min",
+              "value": 3,
+              "unit": "count"
+            }
+          ]
+        },
+        {
+          "name": "Jump Drill",
+          "evaluation": "Land from 1m platform, roll safely",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 10,
+              "unit": "sec"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 12,
+              "unit": "sec"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "notes": "Socks stay snug; no schnitzel required."
+      },
+      "difficulty": 1
+    },
+    {
+      "id": "b3m9k7v2",
+      "country": "Belgium",
+      "iso2code": "be",
+      "service": "Military",
+      "branch": "Army",
+      "name": "Paracommando Basistest (PBT)",
+      "description": "Belgian Army Parachutist fitness test: march, push-ups, and chute roll for basic airborne readiness.",
+      "introduction": [
+        "The Paracommando Basistest (PBT) is the starter fitness test for Belgium’s regular army parachutists, tied to the legacy of the Paracommando Brigade. These are the jarheads who’d judo a parachute mid-air and land with a waffle in hand—sporty, not spreadsheet-savvy.",
+        "The PBT includes a 3km march with a 10kg pack for endurance, push-ups for strength, and a chute roll drill off a 1.5m drop to mimic landing. It’s rookie-friendly, with mild gender adjustments, but it proves you can handle a static-line jump and a tussle with gravity.",
+        "Belgium’s airborne troops train near Chièvres Air Base, and the PBT gets them ready to drop over flatlands or forests—socks on, chocolate optional."
+      ],
+      "components": [
+        {
+          "name": "March",
+          "evaluation": "Complete distance with 10kg pack",
+          "target": {
+            "value": 3,
+            "unit": "km"
+          },
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 30,
+              "unit": "min"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 35,
+              "unit": "min"
+            }
+          ]
+        },
+        {
+          "name": "Push-ups",
+          "evaluation": "Maximum reps in 1 minute",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "min",
+              "value": 20,
+              "unit": "count"
+            },
+            {
+              "gender": "female",
+              "metric": "min",
+              "value": 15,
+              "unit": "count"
+            }
+          ]
+        },
+        {
+          "name": "Chute Roll",
+          "evaluation": "Roll from 1.5m drop, recover",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 15,
+              "unit": "sec"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 18,
+              "unit": "sec"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "notes": "Socks double as mittens; waffles for morale."
+      },
+      "difficulty": 2
+    },
+    {
+      "id": "g5k2m9p7",
+      "country": "Greece",
+      "iso2code": "gr",
+      "service": "Military",
+      "branch": "Army",
+      "name": "Alepohoristes Fitnes Doki (AFD)",
+      "description": "Greek Army Parachutist fitness test: run, sit-ups, and jump drill for basic airborne readiness.",
+      "introduction": [
+        "The Alepohoristes Fitnes Doki (AFD) is the basic fitness test for Greece’s regular army parachutists (*Alepohoristes*), under the Special Forces Command. These are the sporty grunts who’d rather wrestle a chute than a budget—tough enough to jump over Crete’s hills despite the economy.",
+        "The AFD keeps it classic: a 2km run for endurance, sit-ups for core strength, and a jump drill from 1m to practice landing rolls. Standards are lenient, with gender tweaks, but it’s all about proving you can drop from a plane and hit the ground running—no bailout needed.",
+        "Greece still flies these lads out of C-130s, and the AFD ensures they’re fit to parachute into action—socks as headgear, ouzo optional."
+      ],
+      "components": [
+        {
+          "name": "Run",
+          "evaluation": "Time to complete distance",
+          "target": {
+            "value": 2,
+            "unit": "km"
+          },
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 10.5,
+              "unit": "min"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 12,
+              "unit": "min"
+            }
+          ]
+        },
+        {
+          "name": "Sit-ups",
+          "evaluation": "Maximum reps in 1 minute",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "min",
+              "value": 25,
+              "unit": "count"
+            },
+            {
+              "gender": "female",
+              "metric": "min",
+              "value": 20,
+              "unit": "count"
+            }
+          ]
+        },
+        {
+          "name": "Jump Drill",
+          "evaluation": "Land from 1m, roll safely",
+          "scoring": [
+            {
+              "gender": "male",
+              "metric": "max",
+              "value": 12,
+              "unit": "sec"
+            },
+            {
+              "gender": "female",
+              "metric": "max",
+              "value": 15,
+              "unit": "sec"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "notes": "Socks take the heat; planes still fly."
+      },
+      "difficulty": 1
+    }
+  ]
+}
