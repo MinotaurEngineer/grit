@@ -1,0 +1,7 @@
+.star-input {
+  display: flex;
+
+  .icon {
+    display: block;
+  }
+}

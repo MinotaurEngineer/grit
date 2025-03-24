@@ -1,0 +1,38 @@
+.select-box {
+  position: relative;
+}
+
+.select-box .value {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.select-box .options {
+  --item-height: 50px;
+  --item-count: 7;
+  display: flex;
+  flex-direction: column;
+  content-visibility: hidden;
+  position: absolute;
+  inset-inline: 0;
+  max-height: calc(var(--item-height) * var(--item-count));
+}
+
+.select-box[open] .options {
+  content-visibility: visible;
+  z-index: 1;
+  overflow-y: auto;
+}
+
+.select-box .options .option {
+  width: 100%;
+  text-align: start;
+  padding: 0.5rem;
+}
+
+.select-box .options .option.selected {
+  font-weight: 700;
+}

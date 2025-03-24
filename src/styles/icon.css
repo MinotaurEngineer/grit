@@ -1,0 +1,54 @@
+.icon {
+  display: inline-block;
+  width: var(--icon-size, 1em);
+  height: var(--icon-size, 1em);
+  fill: currentColor;
+}
+
+.icon-size-1 {
+  --icon-size: var(--size-1);
+}
+
+.icon-size-2 {
+  --icon-size: var(--size-2);
+}
+
+.icon-size-3 {
+  --icon-size: var(--size-3);
+}
+
+.icon-size-4 {
+  --icon-size: var(--size-4);
+}
+
+.icon-size-5 {
+  --icon-size: var(--size-5);
+}
+
+.icon-size-6 {
+  --icon-size: var(--size-6);
+}
+
+.icon-size-7 {
+  --icon-size: var(--size-7);
+}
+
+.icon-size-8 {
+  --icon-size: var(--size-8);
+}
+
+.icon-size-9 {
+  --icon-size: var(--size-9);
+}
+
+.icon-size-10 {
+  --icon-size: var(--size-10);
+}
+
+.icon-size-11 {
+  --icon-size: var(--size-11);
+}
+
+.icon-size-12 {
+  --icon-size: var(--size-12);
+}
