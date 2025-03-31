@@ -18,7 +18,7 @@ export default function Programs() {
 
   return (
     <article class="Programs" id="programs">
-      <Text className="title" as="h2" size={9}>
+      <Text className="title" as="h2" size={8}>
         Programs
       </Text>
       <div class="actions">
@@ -90,14 +90,8 @@ export default function Programs() {
           <button
             key={id}
             onClick={() => {
-              /*
-              handleFilter({
-                name: 'programId',
-                value: slugify(id)
-              })
-              */
               navigateWithQueryAndHash({
-                queryParams: { branch, programId: slugify(id) },
+                queryParams: { programId: slugify(id) },
                 hash: 'program'
               })
             }}

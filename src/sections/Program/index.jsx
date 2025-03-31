@@ -34,7 +34,6 @@ export default function Program() {
     <article className="Program" aria-labelledby="program-title" id="program">
       <header class="header">
         <div className="title">
-          <Icon size={6} name={iso2code} aria-label={`Flag of ${country}`} />
           <Text as="h1" size={8} id="program-title">
             {name}
           </Text>
@@ -45,7 +44,7 @@ export default function Program() {
               Country
             </Text>
             <Text as="dd" size={6}>
-              {country}
+              <Icon size={6} name={iso2code} aria-label={`Flag of ${country}`} /> {country}
             </Text>
           </dl>
           <dl className="card">
@@ -79,7 +78,7 @@ export default function Program() {
       </header>
 
       <section className="summary">
-        <Text as="h2" size={11} weight={500}>
+        <Text as="h2" size={9} weight={500}>
           {description}
         </Text>
         {introduction.map((p, index) => (
@@ -96,7 +95,7 @@ export default function Program() {
       </section>
 
       <section className="components">
-        <Text as="h2" size={10}>
+        <Text as="h2" size={9}>
           Components &amp; Scoring
         </Text>
         <div className="content">

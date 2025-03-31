@@ -1,4 +1,4 @@
-import { useSignalEffect, useSignal } from '@preact/signals'
+import { useSignal } from '@preact/signals'
 import { useRef, useCallback, useEffect } from 'preact/hooks'
 
 const types = {

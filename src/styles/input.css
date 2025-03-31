@@ -5,3 +5,11 @@
     display: block;
   }
 }
+
+.star-rating {
+  display: flex;
+
+  .icon {
+    display: block;
+  }
+}
