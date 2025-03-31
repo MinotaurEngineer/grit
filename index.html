@@ -162,11 +162,12 @@ input:where([type="button"], [type="reset"], [type="submit"]),
   color: var(--color-zinc-50);
   font-size: var(--size-4);
   scroll-behavior: smooth;
-  --gap: 1rem; /* Moved here for global access */
+  --gap: 1rem;
+  touch-action: manipulation;
 }
 
 #app {
-  padding: var(--size-3);
+  padding: var(--size-2);
   transition: opacity 350ms ease-in-out;
 }
 
@@ -174,6 +175,7 @@ input:where([type="button"], [type="reset"], [type="submit"]),
   opacity: 0;
   content-visibility: hidden;
 }
+
 .loaded #app {
   opacity: 1;
   content-visibility: visible;
@@ -181,7 +183,6 @@ input:where([type="button"], [type="reset"], [type="submit"]),
 
 /* Reset & Base */
 * {
-  /* _outline: 1px solid rgba(0, 255, 0, 0.1); */ /* Commented out—debug only? */
   scrollbar-color: var(--color-zinc-600) var(--color-zinc-950);
 }
 
@@ -194,10 +195,12 @@ button[type="button"] {
 .select-box .value {
   border: 2px solid var(--color-zinc-300);
 }
+
 .select-box .options {
   background-color: var(--color-zinc-300);
   color: var(--color-zinc-950);
 }
+
 .select-box .options .option:hover {
   background-color: white;
 }
@@ -255,7 +258,8 @@ button[type="button"] {
   inset-block-start: var(--gap);
   justify-content: space-between;
   position: sticky;
-  top: var(--gap); /* Added for clarity over inset */
+  top: var(--gap);
+  /* Added for clarity over inset */
   z-index: 1;
 }
 
@@ -300,6 +304,7 @@ button[type="button"] {
 .Programs .actions {
   justify-self: end;
 }
+
 .Programs .reset {
   padding: calc(var(--gap) / 2) var(--gap);
   border: 1px solid var(--color-zinc-500);
@@ -334,6 +339,7 @@ button[type="button"] {
 .Programs .card h2 {
   line-height: 1;
 }
+
 .Programs .card .title {
   display: flex;
   justify-content: space-between;
@@ -356,6 +362,7 @@ button[type="button"] {
   .Programs {
     --columns: 4;
   }
+
   .Programs .title {
     grid-column: span 3;
   }
@@ -365,12 +372,15 @@ button[type="button"] {
   .Programs {
     --columns: 12;
   }
+
   .Programs .title {
     grid-column: span 8;
   }
+
   .Programs .actions {
     grid-column: span 4;
   }
+
   .Programs .card,
   .Programs .filter {
     grid-column: span 3;
@@ -436,14 +446,12 @@ button[type="button"] {
 
 .Program .components .content {
   display: grid;
-  grid-template-columns: repeat(
-      auto-fill,
-      minmax(calc(420mm / 4 - var(--gap) * 4), 1fr)
-    );
+  grid-template-columns: repeat(auto-fill,
+      minmax(calc(360mm / 4 - var(--gap) * 4), 1fr));
   gap: calc(var(--gap) * 2);
 }
 
-.Program .components .content > article {
+.Program .components .content>article {
   border: 1px solid var(--color-zinc-700);
   padding: calc(var(--gap) * 1.25);
   border-radius: calc(var(--gap) / 2);
@@ -494,8 +502,10 @@ button[type="button"] {
 .Footer .brand p {
   max-width: 50ch;
 }
+
 .Footer .logo {
   color: var(--color-zinc-500);
+  max-width: 256px;
 }
 
 .Footer .links {
@@ -539,15 +549,16 @@ button[type="button"] {
   .Footer {
     grid-template-columns: repeat(2, minmax(200px, 1fr));
   }
+
   .Footer .links,
   .Footer .mastend {
     text-align: end;
   }
+
   .Footer .links {
     padding-block-start: var(--gap);
   }
-}
-</style>
+}</style>
     <style>/* latin */
 @font-face {
   font-family: 'Atkinson Hyperlegible Mono';
@@ -3146,7 +3157,14 @@ button[type="button"] {
     display: block;
   }
 }
-</style>
+
+.star-rating {
+  display: flex;
+
+  .icon {
+    display: block;
+  }
+}</style>
     <style>.select-box {
   position: relative;
 }
@@ -3213,7 +3231,7 @@ button[type="button"] {
   background-image: linear-gradient(transparent 25%, var(--color-zinc-900) 95%);
 }
 </style>
-    <script async type="module" crossorigin src="/grit/assets/index-CQlElmJb.js"></script>
+    <script async type="module" crossorigin src="/grit/assets/index-B8frBJGU.js"></script>
   </head>
 
   <body>
